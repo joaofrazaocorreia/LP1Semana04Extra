@@ -8,5 +8,10 @@ namespace testrepo
         {
             Console.WriteLine("Hello World!");
         }
+
+        static void SomeFuncion()
+        {
+            Console.WriteLine("Byez");
+        }
     }
 }
