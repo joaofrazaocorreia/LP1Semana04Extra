@@ -2,14 +2,15 @@
 
 namespace testrepo
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            SomeFunction();
         }
 
-        static void SomeFuncion()
+        private static void SomeFunction()
         {
             Console.WriteLine("Byez");
         }
